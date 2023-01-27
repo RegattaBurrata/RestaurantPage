@@ -5,6 +5,10 @@
 
 body {
     margin: 0px;
+    background-image: url('chicken.jpeg');
+    background-size:auto;
+    background-position: 0%;
+    color: rgb(246, 246, 246);
 }
 
 #content {
@@ -16,7 +20,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 40vw;
     align-content: center;
     gap: 40px;
     text-align: center;
@@ -25,4 +29,19 @@ body {
 .body-container {
     display: grid;
     gap: 50px;
+    /* background: rgba(8, 7, 7, 0.311); */
+    padding: 40px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.body-content {
+    padding: 4rem;
+    /* background: rgba(255, 255, 255, 0.808);
+    color: rgb(45, 45, 45); */
+    font-weight: 500;
+    border-radius: 4px;
 }
