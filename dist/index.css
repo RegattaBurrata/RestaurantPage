@@ -6,8 +6,7 @@
 body {
     margin: 0px;
     background-image: url('chicken.jpeg');
-    background-size:auto;
-    background-position: 0%;
+    background-size: cover;
     color: rgb(246, 246, 246);
 }
 
@@ -32,7 +31,7 @@ body {
     justify-items: center;
 }
 
-.link {
+.menu-link, .contact-link {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
@@ -46,8 +45,22 @@ body {
 
 .body-content {
     padding: 4rem;
-    /* background: rgba(255, 255, 255, 0.808);
-    color: rgb(45, 45, 45); */
     font-weight: 500;
     border-radius: 4px;
+}
+
+.menu-item-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    border-top: 1px solid white;
+    margin: 20px;
+}
+
+.menu-item-description {
+    text-align: center;
+}
+
+.menu-item-price {
+    text-align: right;
 }
