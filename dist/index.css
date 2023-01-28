@@ -15,7 +15,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    margin: 8rem;
 }
 
 .container {
@@ -26,16 +25,23 @@ body {
     text-align: center;
 }
 
-.body-container {
+.nav {
     display: grid;
-    gap: 50px;
-    /* background: rgba(8, 7, 7, 0.311); */
-    padding: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
-.title {
+.link {
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logo {
     font-weight: 800;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .body-content {

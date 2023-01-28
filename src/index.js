@@ -1,3 +1,8 @@
-import pageLoad from './pageload';
+import home from './home';
+import menu from './menu';
 
-pageLoad();
+home();
+
+
+
+
